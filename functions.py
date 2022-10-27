@@ -1,3 +1,16 @@
+
+"""
+def my_func(name,place):
+  print(f"Hello {name}! Are you from {place}?")
+"""
+
+"""
+def total_calc(bill_amount,tip_perc=10):
+  total = bill_amount*(1 + 0.01*tip_perc)
+  total = round(total,2)
+  print(f"Please pay ${total}")
+"""
+
 """
 def multiply(*numbers):
     total = 1
@@ -21,6 +34,7 @@ def tri_recursion(k):
 print("\n\nRecursion Example Results")
 tri_recursion(6)
 """
+
 
 def fizz_buzz(input):
 
