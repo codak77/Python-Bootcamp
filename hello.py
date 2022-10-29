@@ -1,3 +1,5 @@
+import math
+
 msg = "hello"
 print(msg)
 # This is a comment
@@ -24,8 +26,13 @@ x = 20.5
 
 x = 5
 
+math.sqrt(x)
+
 print(x > 3 and x < 10)
 
 num1 = 2
 num2 = 7
+
+sum = sum(num1, num2)
+
 print(num1 + num2)
